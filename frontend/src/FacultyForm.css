@@ -1,0 +1,100 @@
+/* FacultyForm styles */
+/* Button Group Styles */
+.faculty-form .button-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+/* Buttons */
+.faculty-form .button-group button {
+  background-color: #17497a;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex: 1; /* Makes the buttons equal in width */
+}
+
+.faculty-form .button-group button:hover {
+  background-color: #14568d;
+}
+
+.faculty-form {
+  background-color: #e6f2ff;
+  border: 1px solid #cce0f5;
+  border-radius: 8px;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Heading */
+.faculty-form h3 {
+  color: #17497a;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+/* Form */
+.faculty-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Form Inputs */
+.faculty-form .form-inputs {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.faculty-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #1a3b5d;
+}
+
+.faculty-form select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #a3c5e4;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #17497a;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.faculty-form select:hover {
+  border-color: #679ac6;
+}
+
+.faculty-form select:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(103, 154, 198, 0.8);
+}
+
+/* Button */
+.faculty-form button {
+  background-color: #17497a;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.faculty-form button:hover {
+  background-color: #14568d;
+}

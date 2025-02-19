@@ -1,0 +1,26 @@
+/* Alternating row styles */
+.row-even {
+    background-color: white;
+    opacity: 1;
+  }
+  
+  .row-odd {
+    background-color: #f9f9f9; /* Lighter gray */
+    opacity: 0.9;
+  }
+  
+  /* Table heading styles */
+  .MuiDataGrid-root .MuiDataGrid-columnHeaders {
+    background-color: #E6E6FA; /* Light blue background */
+    color: #004080; /* Darker blue text */
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Table footer (pagination) styles */
+  .MuiDataGrid-footerContainer {
+    background-color: #E6E6FA; /* Same light blue as the header */
+    color: #B0C4DE; /* Consistent text color */
+    font-weight: bold;
+  }
+  
